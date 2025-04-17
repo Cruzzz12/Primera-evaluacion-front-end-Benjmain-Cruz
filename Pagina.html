@@ -194,7 +194,7 @@
       </div>
   </div>
   <hr class="rounded">
-  
+
 <!--Sucursalesssssssssss -->
 <div style="background-color: rgb(255, 255, 255); display: flex;border: 1px solid #ccc">
   <div style="flex: 1; margin-right: 20px;">
@@ -282,5 +282,73 @@
       </div>
   </div>
 </div>
+ <!-- Formulario para contactar -->
+ <h4 align="center" id="resenas" style="padding-top: 12px;padding-bottom: 10px;">Contactenos</h4>
+ <div class="container">
+   <form action="action_page.php">
+     <div class="row">
+       <div class="col-25">
+         <label for="fname">Nombre</label>
+       </div>
+       <div class="col-75">
+         <input type="text" id="fname" name="firstname" placeholder="Tu nombre..">
+       </div>
+     </div>
+     <div class="row">
+       <div class="col-25">
+         <label for="lname">Correo Electronico</label>
+       </div>
+       <div class="col-75">
+         <input type="text" id="lname" name="lastname" placeholder="Tu correo electronico..">
+       </div>
+     </div>
+     <div class="row">
+       <div class="col-25">
+         <label for="lname">Numero de contacto</label>
+       </div>
+       <div class="col-75">
+         <input type="text" id="lname" name="lastname" placeholder="Tu numero de contacto..">
+       </div>
+     </div>
+     <div class="row">
+       <div class="col-25">
+         <label for="country">¿Que desea hacer?</label>
+       </div>
+       <div class="col-75">
+         <select id="country" name="country">
+           <option value="australia">Consulta</option>
+           <option value="canada">Reclamo</option>
+         </select>
+       </div>
+     </div>
+     <div class="row">
+       <div class="col-25">
+         <label for="subject"></label>
+       </div>
+       <div class="col-75">
+         <textarea id="subject" name="subject" placeholder="Escriba aqui.." style="height:200px"></textarea>
+       </div>
+     </div>
+     <div class="row">
+       <input type="submit" value="Enviar">
+     </div>
+   </form>
+ </div>
+
+ <!-- Información de contacto y redes sociales -->
+ <footer style="background-color: #f8f9fa; padding: 20px; text-align: center; border-top: 1px solid #ddd;">
+   <h4>Redes sociales</h4>
+   <p><strong>Sucursal Costanera:</strong> 9 92873684</p>
+   <p><strong>Sucursal Isla Teja:</strong> 9 87392048</p>
+   <p><strong>Sucursal Pedro Montt:</strong> 9 20573928</p>
+
+   <a href="https://www.instagram.com" target="_blank" style="margin: 0 10px; text-decoration: none; color: #000;">
+     <img src="./Imagenes/instagram.svg" alt="Instagram" style="width: 30px; height: 30px;">
+   </a>
+   <a href="https://www.facebook.com" target="_blank" style="margin: 0 10px; text-decoration: none; color: #000;">
+     <img src="./Imagenes/facebook.svg" alt="Facebook" style="width: 30px; height: 30px;">
+   </a>
+ </footer>
+
 </body>
 <html>
