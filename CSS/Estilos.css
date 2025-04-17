@@ -1,0 +1,49 @@
+/*navbar fixon */
+.body {
+  background-color: rgb(255, 255, 255);
+}
+#navbar-example2 {
+  background-color: black !important;
+  position: sticky;
+  z-index: 1000;
+  top: 0;
+}
+
+.navbar .nav-link {
+  color: rgb(255, 255, 255);
+}
+
+.navbar .dropdown-toggle {
+  color: white !important;
+}
+
+.navbar .nav-link.dropdown-toggle {
+  background-color: rgb(255, 255, 255) !important;
+  color: black !important; 
+}
+.navbar .navbar-brand {
+  color: rgb(255, 255, 255);
+  align-items: center !important;
+  font-size: 30px;
+}
+
+#navbar-example2 .navbar-brand:hover {
+  color: rgb(255, 255, 255) !important;
+}
+
+/*carruseeel*/
+#carouselExampleCaptions {
+    overflow: hidden;
+    margin-top: 10px;
+    margin-left: 10px;
+    opacity:100%;
+}
+.carousel-inner .carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+  text-shadow: 3px 2px #151313;
+
+}
