@@ -47,3 +47,33 @@
   text-shadow: 3px 2px #151313;
 
 }
+
+/*cardssss*/
+.card {
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  max-height: 600px;
+  margin: 20px;
+  text-align: center;
+  font-family: arial;
+
+}
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card-container {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+hr.rounded {
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
+}
+.card h1{
+  font-size: 25px;
+}
